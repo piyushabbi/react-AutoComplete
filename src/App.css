@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.list {
+  border: 1px solid #ccc;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+.list ul,
+.list li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 10px;
+}
+.list li {
+  cursor: pointer;
+}
+input[type="search"] {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+}
+.list li {
+  color: rgb(129, 127, 127);
+}
+.list mark {
+  color: #000;
+}
